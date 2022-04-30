@@ -37,16 +37,16 @@ const PizzaOrderForm = ( props ) => {
                         onChange={onChange}
                         value={values['quantity']}
                     />
-                    <div>
-                        <InlineList>
-                            <Radio name="피자두께" label="Thick" value="Thick" cur={values.피자두께} onChange={onChange} />
-                            <Radio name="피자두께" label="Medium" value="Medium" cur={values.피자두께} onChange={onChange} />
-                            <Radio name="피자두께" label="Thin" value="Thin" cur={values.피자두께} onChange={onChange} />
-                            <CheckBox name="양파" label="양파" checked={values.양파} onChange={onChange} />
-                            <CheckBox name="페퍼로니" label="페퍼로니" checked={values.페퍼로니} onChange={onChange} />
-                            <CheckBox name="미트볼" label="미트볼" checked={values.미트볼} onChange={onChange} />
-                        </InlineList>
-                    </div>
+                    
+                    <InlineList>
+                        <Radio name="피자두께" label="Thick" value="Thick" cur={values.피자두께} onChange={onChange} autoFocus />
+                        <Radio name="피자두께" label="Medium" value="Medium" cur={values.피자두께} onChange={onChange} autoFocus/>
+                        <Radio name="피자두께" label="Thin" value="Thin" cur={values.피자두께} onChange={onChange} autoFocus/>
+                        <CheckBox name="양파" label="양파" checked={values.양파} onChange={onChange} autoFocus/>
+                        <CheckBox name="페퍼로니" label="페퍼로니" checked={values.페퍼로니} onChange={onChange} autoFocus />
+                        <CheckBox name="미트볼" label="미트볼" checked={values.미트볼} onChange={onChange} autoFocus/>
+                    </InlineList>
+                    
                     <Input
                         name="drink"
                         label="음료수"
