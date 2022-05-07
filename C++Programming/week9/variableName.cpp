@@ -3,7 +3,6 @@
 20213043 이세현
 ***********************/
 #include <iostream>
-#include <string.h>
 using namespace std;
 
 int main() {
@@ -12,7 +11,7 @@ int main() {
 
     for (int i = 0; i < t; i++) {
         int result = 1;
-        char x[256];
+        char x[300];
         cin >> x;
 
         if ((x[0] < 'A' || x[0] > 'Z') && (x[0] < 'a' || x[0] > 'z') && (x[0] != '_')) {
