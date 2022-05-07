@@ -3,7 +3,6 @@
 20213043 이세현
 ***********************/
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 int main() {
@@ -11,24 +10,46 @@ int main() {
     cin >> t;
 
     for (int i = 0; i < t; i++) {
-        unsigned long long int n;
+        char n[100];
         cin >> n;
-        unsigned long long int result = 0;
+
+        // 몫을 저장하기 위한 배열
+        int result [100];
+        int resleng = 0;
 
         int length = 0;
-        int one;
-
-        while (n>=100) {
-            one = n % 10;
-            result += one * pow(10, length++);
-            n = n / 10 - one;
-            cout << "result : " << result << endl;
-            cout << "n      : " << n << endl;
+        while (n[length] != 0) {
+            length++;
         }
+        int x[length];
+        for (int i = 0; i < length; i++) {
+            x[i] = n[i] - '0';
+        }
+        // 입력받은 문자를 정수 배열에 저장하기
 
-        if (n/10 - n%10) cout << 0 << endl;
-        else cout << n/10 << result << endl;
-
+        int one;
+        for (int i = length; i > 2; i--) {
+            one = x[i-1];
+            result[i] = one;
+            resleng++;
+            x[i-2] -= one;
+            int j = i;
+            while (x[j-2] < 0) {
+                x[j-2] += 10;
+                x[j-3] -= 1;
+                j--;
+            }
+        }
+        if(x[0]-x[1]) cout << 0 << endl;        
+        else {
+            result[2] = x[1];
+            int i = 0;
+            while (!result[i]) i++;
+            for (int j = i; j < length+1; j++) {
+                cout << result[j];
+            }
+            cout << endl;
+        }
     }
 
     return 0;
