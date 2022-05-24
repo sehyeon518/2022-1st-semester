@@ -20,8 +20,8 @@ public:
     bool operator== (const MyPoint& p) const;
     bool operator!= (const MyPoint& p) const;
     // utility functions
-    int dist2sqr(const MyPoint& p) const; // Á÷¼±°Å¸®(Euclidean distance)ÀÇ Á¦°öÀ»
-    int dist1(const MyPoint& p) const;    // Á÷°¢°Å¸®(rectilinear distance)¸¦ °è»ê
+    int dist2sqr(const MyPoint& p) const; // ì§ì„ ê±°ë¦¬(Euclidean distance)ì˜ ì œê³±ì„
+    int dist1(const MyPoint& p) const;    // ì§ê°ê±°ë¦¬(rectilinear distance)ë¥¼ ê³„ì‚°
 
 };
 #endif
