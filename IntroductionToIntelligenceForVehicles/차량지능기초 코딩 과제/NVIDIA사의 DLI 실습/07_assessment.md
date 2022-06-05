@@ -147,51 +147,51 @@ model.fit(train_it,
 ```
 
     Epoch 1/20
-    37/36 [==============================] - 31s 846ms/step - loss: 1.2301 - accuracy: 0.8493 - val_loss: 0.9367 - val_accuracy: 0.8865
+    37/36 [==============================] - 30s 807ms/step - loss: 1.2625 - accuracy: 0.8432 - val_loss: 0.9965 - val_accuracy: 0.8860
     Epoch 2/20
-    37/36 [==============================] - 23s 615ms/step - loss: 0.8914 - accuracy: 0.8953 - val_loss: 0.7878 - val_accuracy: 0.9058
+    37/36 [==============================] - 23s 612ms/step - loss: 0.9082 - accuracy: 0.8956 - val_loss: 0.7911 - val_accuracy: 0.9037
     Epoch 3/20
-    37/36 [==============================] - 23s 609ms/step - loss: 0.7784 - accuracy: 0.9081 - val_loss: 0.7051 - val_accuracy: 0.9113
+    37/36 [==============================] - 23s 615ms/step - loss: 0.7991 - accuracy: 0.9074 - val_loss: 0.8045 - val_accuracy: 0.9113
     Epoch 4/20
-    37/36 [==============================] - 22s 608ms/step - loss: 0.6926 - accuracy: 0.9186 - val_loss: 0.7138 - val_accuracy: 0.9119
+    37/36 [==============================] - 23s 610ms/step - loss: 0.6955 - accuracy: 0.9196 - val_loss: 0.7100 - val_accuracy: 0.9174
     Epoch 5/20
-    37/36 [==============================] - 23s 610ms/step - loss: 0.6553 - accuracy: 0.9258 - val_loss: 0.6676 - val_accuracy: 0.9245
+    37/36 [==============================] - 23s 609ms/step - loss: 0.6523 - accuracy: 0.9205 - val_loss: 0.7258 - val_accuracy: 0.9134
     Epoch 6/20
-    37/36 [==============================] - 23s 613ms/step - loss: 0.6441 - accuracy: 0.9239 - val_loss: 0.6808 - val_accuracy: 0.9139
+    37/36 [==============================] - 22s 605ms/step - loss: 0.6138 - accuracy: 0.9314 - val_loss: 0.6480 - val_accuracy: 0.9200
     Epoch 7/20
-    37/36 [==============================] - 22s 605ms/step - loss: 0.6064 - accuracy: 0.9315 - val_loss: 0.6039 - val_accuracy: 0.9225
+    37/36 [==============================] - 22s 604ms/step - loss: 0.5752 - accuracy: 0.9335 - val_loss: 0.6160 - val_accuracy: 0.9230
     Epoch 8/20
-    37/36 [==============================] - 22s 604ms/step - loss: 0.6207 - accuracy: 0.9266 - val_loss: 0.6144 - val_accuracy: 0.9225
+    37/36 [==============================] - 23s 609ms/step - loss: 0.6155 - accuracy: 0.9279 - val_loss: 0.6725 - val_accuracy: 0.9174
     Epoch 9/20
-    37/36 [==============================] - 22s 604ms/step - loss: 0.5438 - accuracy: 0.9317 - val_loss: 0.5048 - val_accuracy: 0.9367
+    37/36 [==============================] - 22s 605ms/step - loss: 0.5946 - accuracy: 0.9289 - val_loss: 0.6163 - val_accuracy: 0.9230
     Epoch 10/20
-    37/36 [==============================] - 22s 605ms/step - loss: 0.5496 - accuracy: 0.9353 - val_loss: 0.6667 - val_accuracy: 0.9124
+    37/36 [==============================] - 22s 606ms/step - loss: 0.5436 - accuracy: 0.9335 - val_loss: 0.6299 - val_accuracy: 0.9276
     Epoch 11/20
-    37/36 [==============================] - 22s 598ms/step - loss: 0.5734 - accuracy: 0.9343 - val_loss: 0.6536 - val_accuracy: 0.9200
+    37/36 [==============================] - 22s 601ms/step - loss: 0.5608 - accuracy: 0.9342 - val_loss: 0.5312 - val_accuracy: 0.9347
     Epoch 12/20
-    37/36 [==============================] - 23s 612ms/step - loss: 0.5248 - accuracy: 0.9370 - val_loss: 0.6777 - val_accuracy: 0.9195
+    37/36 [==============================] - 23s 609ms/step - loss: 0.5620 - accuracy: 0.9336 - val_loss: 0.6446 - val_accuracy: 0.9235
     Epoch 13/20
-    37/36 [==============================] - 22s 607ms/step - loss: 0.5207 - accuracy: 0.9369 - val_loss: 0.4992 - val_accuracy: 0.9417
+    37/36 [==============================] - 22s 605ms/step - loss: 0.5285 - accuracy: 0.9370 - val_loss: 0.5377 - val_accuracy: 0.9341
     Epoch 14/20
-    37/36 [==============================] - 22s 607ms/step - loss: 0.5265 - accuracy: 0.9372 - val_loss: 0.5270 - val_accuracy: 0.9271
+    37/36 [==============================] - 23s 609ms/step - loss: 0.5225 - accuracy: 0.9376 - val_loss: 0.7010 - val_accuracy: 0.9179
     Epoch 15/20
-    37/36 [==============================] - 23s 613ms/step - loss: 0.5135 - accuracy: 0.9403 - val_loss: 0.6276 - val_accuracy: 0.9265
+    37/36 [==============================] - 22s 605ms/step - loss: 0.5140 - accuracy: 0.9396 - val_loss: 0.5330 - val_accuracy: 0.9402
     Epoch 16/20
-    37/36 [==============================] - 22s 606ms/step - loss: 0.5100 - accuracy: 0.9373 - val_loss: 0.6270 - val_accuracy: 0.9326
+    37/36 [==============================] - 22s 604ms/step - loss: 0.5145 - accuracy: 0.9410 - val_loss: 0.5512 - val_accuracy: 0.9377
     Epoch 17/20
-    37/36 [==============================] - 22s 608ms/step - loss: 0.5081 - accuracy: 0.9411 - val_loss: 0.6179 - val_accuracy: 0.9195
+    37/36 [==============================] - 23s 610ms/step - loss: 0.5035 - accuracy: 0.9413 - val_loss: 0.5736 - val_accuracy: 0.9321
     Epoch 18/20
-    37/36 [==============================] - 23s 609ms/step - loss: 0.5349 - accuracy: 0.9374 - val_loss: 0.5763 - val_accuracy: 0.9336
+    37/36 [==============================] - 22s 606ms/step - loss: 0.4820 - accuracy: 0.9408 - val_loss: 0.5663 - val_accuracy: 0.9382
     Epoch 19/20
-    37/36 [==============================] - 22s 603ms/step - loss: 0.5029 - accuracy: 0.9407 - val_loss: 0.5966 - val_accuracy: 0.9240
+    37/36 [==============================] - 22s 606ms/step - loss: 0.4903 - accuracy: 0.9422 - val_loss: 0.4771 - val_accuracy: 0.9443
     Epoch 20/20
-    37/36 [==============================] - 22s 607ms/step - loss: 0.5432 - accuracy: 0.9352 - val_loss: 0.5145 - val_accuracy: 0.9412
+    37/36 [==============================] - 22s 606ms/step - loss: 0.4969 - accuracy: 0.9417 - val_loss: 0.5663 - val_accuracy: 0.9382
 
 
 
 
 
-    <tensorflow.python.keras.callbacks.History at 0x7f3d598eac88>
+    <tensorflow.python.keras.callbacks.History at 0x7faa4abd1cf8>
 
 
 
@@ -212,28 +212,12 @@ model.compile(optimizer=keras.optimizers.RMSprop(learning_rate = .001),
 
 
 ```python
-model.fit(FIXME,
-          validation_data=FIXME,
+model.fit(train_it,
+          validation_data=valid_it,
           steps_per_epoch=train_it.samples/train_it.batch_size,
           validation_steps=valid_it.samples/valid_it.batch_size,
-          epochs=FIXME)
+          epochs=20)
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-10-a134ddb49114> in <module>
-    ----> 1 model.fit(FIXME,
-          2           validation_data=FIXME,
-          3           steps_per_epoch=train_it.samples/train_it.batch_size,
-          4           validation_steps=valid_it.samples/valid_it.batch_size,
-          5           epochs=FIXME)
-
-
-    NameError: name 'FIXME' is not defined
-
 
 ## 모델 평가
 
@@ -246,13 +230,13 @@ model.fit(FIXME,
 model.evaluate(valid_it, steps=valid_it.samples/valid_it.batch_size)
 ```
 
-    11/10 [================================] - 4s 398ms/step - loss: 0.6746 - binary_accuracy: 0.9296
+    11/10 [================================] - 4s 399ms/step - loss: 0.5821 - accuracy: 0.9311
 
 
 
 
 
-    [0.6745895147323608, 0.9295845627784729]
+    [0.5820863246917725, 0.9311043620109558]
 
 
 
@@ -274,14 +258,14 @@ run_assessment(model, valid_it)
 
     Evaluating model 5 times to obtain average accuracy...
     
-    11/10 [================================] - 5s 430ms/step - loss: 0.6715 - binary_accuracy: 0.9387
-    11/10 [================================] - 4s 389ms/step - loss: 0.6742 - binary_accuracy: 0.9331
-    11/10 [================================] - 4s 395ms/step - loss: 0.6740 - binary_accuracy: 0.9336
-    11/10 [================================] - 4s 396ms/step - loss: 0.6697 - binary_accuracy: 0.9372
-    11/10 [================================] - 4s 395ms/step - loss: 0.6746 - binary_accuracy: 0.9281
+    11/10 [================================] - 5s 432ms/step - loss: 0.6012 - accuracy: 0.9357
+    11/10 [================================] - 4s 389ms/step - loss: 0.5816 - accuracy: 0.9306
+    11/10 [================================] - 4s 395ms/step - loss: 0.5852 - accuracy: 0.9331
+    11/10 [================================] - 4s 396ms/step - loss: 0.5235 - accuracy: 0.9412
+    11/10 [================================] - 4s 393ms/step - loss: 0.5502 - accuracy: 0.9372
     
     Accuracy required to pass the assessment is 0.92 or greater.
-    Your average accuracy is 0.9341.
+    Your average accuracy is 0.9356.
     
     Congratulations! You passed the assessment!
     See instructions below to generate a certificate.
